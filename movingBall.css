@@ -1,0 +1,26 @@
+/* Portrait */
+@media screen and (orientation:portrait) {
+    body{width: 400px; height: 600px; border: 2px solid black; }
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+    body{width: 100%; border: 2px solid black; margin: 0 auto; }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #004F00;
+   
+}
+
+#fullscreenButton {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #fff;
+}
